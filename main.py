@@ -1,7 +1,9 @@
 from selenium import webdriver 
- from bs4 import BeautifulSoup 
- from time import sleep 
- import time 
+from bs4 import BeautifulSoup 
+import requests
+from time import sleep 
+import time 
+
   
  detail={'name':[],"profile_url":[]} 
  driver=webdriver.Chrome() 
